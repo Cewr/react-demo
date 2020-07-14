@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, HashRouter as Router, Route, Redirect } from 'react-router-dom';
+import { Switch, HashRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 import Index from './pages/index';
 import Rule from './pages/rule';
@@ -8,7 +8,6 @@ function App() {
 
   return (
     <div className="App">
-
       <Router>
         <Switch>
 
@@ -19,7 +18,6 @@ function App() {
           {/* <Redirect from='/' to="/" /> */}
         </Switch>
       </Router>
-
     </div>
   );
 }
