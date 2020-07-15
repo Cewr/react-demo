@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import './index.less';
+import './index.less';
 import store from '../../../../data/store';
 import { setDataInfo } from '../../../../data/dataInfo'
 
