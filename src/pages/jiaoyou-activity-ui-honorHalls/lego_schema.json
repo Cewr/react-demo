@@ -1,0 +1,39 @@
+{
+    "schema": {
+        "title": "组件ComponentName",
+        "type": "object",
+        "properties": {
+            "Phase": {
+                "type": "object",
+                "properties": {
+                    "currentPhase": {
+                        "type": "string",
+                        "title": "CurrentPhase"
+                    }
+                },
+                "title": "Phase"
+            },
+            "ComponentName": {
+                "type": "object",
+                "properties": {
+                    "finalRankList": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        },
+                        "title": "FinalRankList"
+                    }
+                },
+                "title": "ComponentName"
+            }
+        }
+    },
+    "data": {
+        "Phase": {
+            "currentPhase": "phase1"
+        },
+        "ComponentName": {
+            "finalRankList": ["--", "--", "--", "--", "--", "--", "--", "--", "--", "--"]
+        }
+    }
+}

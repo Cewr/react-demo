@@ -1,0 +1,35 @@
+{
+  "name": "@tencent/jiaoyou-activity-ui-honorHalls",
+  "alias": "HonorHalls 荣誉殿堂",
+  "version": "1.1.1",
+  "cost": 0.5,
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node run-test.js",
+    "start:demo": "node run-dev-demo.js"
+  },
+  "nyc": {
+    "require": [
+      "@babel/register",
+      "./test/setup.js"
+    ],
+    "reporter": [
+      "lcov",
+      "text",
+      "json-summary"
+    ],
+    "sourceMap": false,
+    "instrument": false
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.code.oa.com/ivweb/lego-component-warehouse/tree/master/components/jiaoyou/jiaoyou-activity-ui-honorHalls"
+  },
+  "author": "v_vaweichen",
+  "license": "ISC",
+  "dependencies": {
+    "@tencent/lego-plugin-demo-dev": "^1.1.20",
+    "shelljs": "^0.8.4"
+  }
+}
