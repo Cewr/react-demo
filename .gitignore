@@ -5,6 +5,8 @@
 /.pnp
 .pnp.js
 /src/pages/jiaoyou-activity-ui-honorHalls/node_modules
+/src/pages/jiaoyou-activity-ui-honorHalls/.nyc_output
+/src/pages/test-module/node_modules
 /dist
 
 # testing
